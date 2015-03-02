@@ -18,8 +18,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
+		<Item Name="Simple Sequence Editor.lvlib" Type="Library" URL="../Simple Sequence Editor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -58,14 +57,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Channel.BuildDisplayedName.vi" Type="VI" URL="../SubVIs/New folder/Channel.BuildDisplayedName.vi"/>
-			<Item Name="Channel.BuildMenuName.vi" Type="VI" URL="../SubVIs/New folder/Channel.BuildMenuName.vi"/>
-			<Item Name="Channel.SearchForExisting.vi" Type="VI" URL="../SubVIs/New folder/Channel.SearchForExisting.vi"/>
-			<Item Name="ChannelProperties.ctl" Type="VI" URL="../Types/ChannelProperties.ctl"/>
-			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/New folder/Constants.vi"/>
-			<Item Name="LoadSystemDefinition.vi" Type="VI" URL="../SubVIs/New folder/LoadSystemDefinition.vi"/>
-			<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/New folder/Menu.Sequence.Load.vi"/>
-			<Item Name="Menu.Sequeunce.Execute.vi" Type="VI" URL="../SubVIs/New folder/Menu.Sequeunce.Execute.vi"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -78,11 +69,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="StateVariables.ctl" Type="VI" URL="../Types/StateVariables.ctl"/>
-			<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/New folder/SystemDefinitionSelectionDialog.vi"/>
-			<Item Name="UI.Sequence.BuildRowNames.vi" Type="VI" URL="../SubVIs/New folder/UI.Sequence.BuildRowNames.vi"/>
-			<Item Name="UI.Sequence.GetRowWidths.vi" Type="VI" URL="../SubVIs/New folder/UI.Sequence.GetRowWidths.vi"/>
-			<Item Name="UI.Sequence.SetRowWidths.vi" Type="VI" URL="../SubVIs/New folder/UI.Sequence.SetRowWidths.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
