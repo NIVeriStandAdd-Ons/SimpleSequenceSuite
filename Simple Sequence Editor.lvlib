@@ -9,9 +9,14 @@
 		<Item Name="Channel.BuildMenuName.vi" Type="VI" URL="../SubVIs/Channel.BuildMenuName.vi"/>
 		<Item Name="Channel.SearchForExisting.vi" Type="VI" URL="../SubVIs/Channel.SearchForExisting.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+		<Item Name="Cursor.Manage.vi" Type="VI" URL="../SubVIs/Cursor.Manage.vi"/>
 		<Item Name="LoadSystemDefinition.vi" Type="VI" URL="../SubVIs/LoadSystemDefinition.vi"/>
+		<Item Name="Menu.BuildSubMenuTag.vi" Type="VI" URL="../SubVIs/Menu.BuildSubMenuTag.vi"/>
+		<Item Name="Menu.Properties.Execute.vi" Type="VI" URL="../SubVIs/Menu.Properties.Execute.vi"/>
+		<Item Name="Menu.Properties.Load.vi" Type="VI" URL="../SubVIs/Menu.Properties.Load.vi"/>
 		<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/Menu.Sequence.Load.vi"/>
 		<Item Name="Menu.Sequeunce.Execute.vi" Type="VI" URL="../SubVIs/Menu.Sequeunce.Execute.vi"/>
+		<Item Name="Sequence.BuildNewRow.vi" Type="VI" URL="../SubVIs/Sequence.BuildNewRow.vi"/>
 		<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/SystemDefinitionSelectionDialog.vi"/>
 		<Item Name="UI.Sequence.BuildRowNames.vi" Type="VI" URL="../SubVIs/UI.Sequence.BuildRowNames.vi"/>
 		<Item Name="UI.Sequence.GetRowWidths.vi" Type="VI" URL="../SubVIs/UI.Sequence.GetRowWidths.vi"/>
