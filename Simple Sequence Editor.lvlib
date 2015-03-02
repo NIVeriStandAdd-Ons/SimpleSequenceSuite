@@ -10,6 +10,7 @@
 		<Item Name="Channel.SearchForExisting.vi" Type="VI" URL="../SubVIs/Channel.SearchForExisting.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
 		<Item Name="Cursor.Manage.vi" Type="VI" URL="../SubVIs/Cursor.Manage.vi"/>
+		<Item Name="Dialog.MassStepGeneration.vi" Type="VI" URL="../SubVIs/Dialog.MassStepGeneration.vi"/>
 		<Item Name="LoadSystemDefinition.vi" Type="VI" URL="../SubVIs/LoadSystemDefinition.vi"/>
 		<Item Name="Menu.BuildSubMenuTag.vi" Type="VI" URL="../SubVIs/Menu.BuildSubMenuTag.vi"/>
 		<Item Name="Menu.Properties.Execute.vi" Type="VI" URL="../SubVIs/Menu.Properties.Execute.vi"/>
