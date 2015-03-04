@@ -17,7 +17,12 @@
 		<Item Name="Menu.Properties.Load.vi" Type="VI" URL="../SubVIs/Menu.Properties.Load.vi"/>
 		<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/Menu.Sequence.Load.vi"/>
 		<Item Name="Menu.Sequeunce.Execute.vi" Type="VI" URL="../SubVIs/Menu.Sequeunce.Execute.vi"/>
+		<Item Name="Preview.vi" Type="VI" URL="../SubVIs/Preview.vi"/>
 		<Item Name="Sequence.BuildNewRow.vi" Type="VI" URL="../SubVIs/Sequence.BuildNewRow.vi"/>
+		<Item Name="Sequence.Compile.vi" Type="VI" URL="../SubVIs/Sequence.Compile.vi"/>
+		<Item Name="Sequence.FormatChannelName.vi" Type="VI" URL="../SubVIs/Sequence.FormatChannelName.vi"/>
+		<Item Name="Sequence.GenerateSequence.vi" Type="VI" URL="../SubVIs/Sequence.GenerateSequence.vi"/>
+		<Item Name="Step.GetProperties.vi" Type="VI" URL="../SubVIs/Step.GetProperties.vi"/>
 		<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/SystemDefinitionSelectionDialog.vi"/>
 		<Item Name="UI.Sequence.BuildRowNames.vi" Type="VI" URL="../SubVIs/UI.Sequence.BuildRowNames.vi"/>
 		<Item Name="UI.Sequence.GetRowWidths.vi" Type="VI" URL="../SubVIs/UI.Sequence.GetRowWidths.vi"/>
@@ -26,7 +31,11 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="ChannelProperties.ctl" Type="VI" URL="../Types/ChannelProperties.ctl"/>
+		<Item Name="Compiled.RTSequenceProperties.ctl" Type="VI" URL="../Types/Compiled.RTSequenceProperties.ctl"/>
+		<Item Name="Compiled.StepElementProperties.ctl" Type="VI" URL="../Types/Compiled.StepElementProperties.ctl"/>
+		<Item Name="Compiled.StepProperties.ctl" Type="VI" URL="../Types/Compiled.StepProperties.ctl"/>
 		<Item Name="StateVariables.ctl" Type="VI" URL="../Types/StateVariables.ctl"/>
+		<Item Name="StepTypes.ctl" Type="VI" URL="../Types/StepTypes.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
