@@ -31,12 +31,15 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="ChannelProperties.ctl" Type="VI" URL="../Types/ChannelProperties.ctl"/>
+		<Item Name="Compiled.IOStateProperties.ctl" Type="VI" URL="../Types/Compiled.IOStateProperties.ctl"/>
 		<Item Name="Compiled.RTSequenceProperties.ctl" Type="VI" URL="../Types/Compiled.RTSequenceProperties.ctl"/>
 		<Item Name="Compiled.StepElementProperties.ctl" Type="VI" URL="../Types/Compiled.StepElementProperties.ctl"/>
-		<Item Name="Compiled.StepProperties.ctl" Type="VI" URL="../Types/Compiled.StepProperties.ctl"/>
 		<Item Name="StateVariables.ctl" Type="VI" URL="../Types/StateVariables.ctl"/>
 		<Item Name="StepTypes.ctl" Type="VI" URL="../Types/StepTypes.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Sequence.CreateStopTask.vi" Type="VI" URL="../SubVIs/Sequence.CreateStopTask.vi"/>
+	<Item Name="Sequence.CreateTask.vi" Type="VI" URL="../SubVIs/Sequence.CreateTask.vi"/>
+	<Item Name="Sequence.CreateWhileLoop.vi" Type="VI" URL="../SubVIs/Sequence.CreateWhileLoop.vi"/>
 	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
 </Library>
