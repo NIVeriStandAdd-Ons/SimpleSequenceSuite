@@ -17,11 +17,14 @@
 		<Item Name="Menu.Properties.Load.vi" Type="VI" URL="../SubVIs/Menu.Properties.Load.vi"/>
 		<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/Menu.Sequence.Load.vi"/>
 		<Item Name="Menu.Sequeunce.Execute.vi" Type="VI" URL="../SubVIs/Menu.Sequeunce.Execute.vi"/>
-		<Item Name="Preview.vi" Type="VI" URL="../SubVIs/Preview.vi"/>
 		<Item Name="Sequence.BuildNewRow.vi" Type="VI" URL="../SubVIs/Sequence.BuildNewRow.vi"/>
 		<Item Name="Sequence.Compile.vi" Type="VI" URL="../SubVIs/Sequence.Compile.vi"/>
+		<Item Name="Sequence.CreateStopTask.vi" Type="VI" URL="../SubVIs/Sequence.CreateStopTask.vi"/>
+		<Item Name="Sequence.CreateTask.vi" Type="VI" URL="../SubVIs/Sequence.CreateTask.vi"/>
+		<Item Name="Sequence.CreateWhileLoop.vi" Type="VI" URL="../SubVIs/Sequence.CreateWhileLoop.vi"/>
 		<Item Name="Sequence.FormatChannelName.vi" Type="VI" URL="../SubVIs/Sequence.FormatChannelName.vi"/>
 		<Item Name="Sequence.GenerateSequence.vi" Type="VI" URL="../SubVIs/Sequence.GenerateSequence.vi"/>
+		<Item Name="Sequence.Preview.vi" Type="VI" URL="../SubVIs/Sequence.Preview.vi"/>
 		<Item Name="Step.GetProperties.vi" Type="VI" URL="../SubVIs/Step.GetProperties.vi"/>
 		<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/SystemDefinitionSelectionDialog.vi"/>
 		<Item Name="UI.Sequence.BuildRowNames.vi" Type="VI" URL="../SubVIs/UI.Sequence.BuildRowNames.vi"/>
@@ -33,13 +36,15 @@
 		<Item Name="ChannelProperties.ctl" Type="VI" URL="../Types/ChannelProperties.ctl"/>
 		<Item Name="Compiled.IOStateProperties.ctl" Type="VI" URL="../Types/Compiled.IOStateProperties.ctl"/>
 		<Item Name="Compiled.RTSequenceProperties.ctl" Type="VI" URL="../Types/Compiled.RTSequenceProperties.ctl"/>
+		<Item Name="Compiled.StepCondition.ctl" Type="VI" URL="../Types/Compiled.StepCondition.ctl"/>
 		<Item Name="Compiled.StepElementProperties.ctl" Type="VI" URL="../Types/Compiled.StepElementProperties.ctl"/>
+		<Item Name="Compiled.StepProperties.ctl" Type="VI" URL="../Types/Compiled.StepProperties.ctl"/>
+		<Item Name="OperationTypes.ctl" Type="VI" URL="../Types/OperationTypes.ctl"/>
+		<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
 		<Item Name="StateVariables.ctl" Type="VI" URL="../Types/StateVariables.ctl"/>
 		<Item Name="StepTypes.ctl" Type="VI" URL="../Types/StepTypes.ctl"/>
+		<Item Name="UI.PropertiesTypes.ctl" Type="VI" URL="../Types/UI.PropertiesTypes.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-	<Item Name="Sequence.CreateStopTask.vi" Type="VI" URL="../SubVIs/Sequence.CreateStopTask.vi"/>
-	<Item Name="Sequence.CreateTask.vi" Type="VI" URL="../SubVIs/Sequence.CreateTask.vi"/>
-	<Item Name="Sequence.CreateWhileLoop.vi" Type="VI" URL="../SubVIs/Sequence.CreateWhileLoop.vi"/>
-	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
+	<Item Name="Sequence.BuildPreviewWaveform.vi" Type="VI" URL="../SubVIs/Sequence.BuildPreviewWaveform.vi"/>
 </Library>

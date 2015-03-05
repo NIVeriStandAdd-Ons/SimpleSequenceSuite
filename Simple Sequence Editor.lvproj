@@ -20,9 +20,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Simple Sequence Editor.lvlib" Type="Library" URL="../Simple Sequence Editor.lvlib"/>
-		<Item Name="Compiled.StepProperties1.ctl" Type="VI" URL="../Types/Compiled.StepProperties1.ctl"/>
-		<Item Name="Compiled.StepCondition.ctl" Type="VI" URL="../Types/Compiled.StepCondition.ctl"/>
-		<Item Name="Compiled.StepProperties.ctl" Type="VI" URL="../Types/Compiled.StepProperties.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
