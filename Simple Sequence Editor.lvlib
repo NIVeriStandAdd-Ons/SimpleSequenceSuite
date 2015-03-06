@@ -51,5 +51,6 @@
 		<Item Name="UI.PropertiesTypes.ctl" Type="VI" URL="../Types/UI.PropertiesTypes.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Sequence.BuildChannelLookup.vi" Type="VI" URL="../SubVIs/Sequence.BuildChannelLookup.vi"/>
 	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
 </Library>
