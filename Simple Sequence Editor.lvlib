@@ -20,6 +20,7 @@
 		<Item Name="Menu.Properties.Load.vi" Type="VI" URL="../SubVIs/Menu.Properties.Load.vi"/>
 		<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/Menu.Sequence.Load.vi"/>
 		<Item Name="Menu.Sequeunce.Execute.vi" Type="VI" URL="../SubVIs/Menu.Sequeunce.Execute.vi"/>
+		<Item Name="Sequence.BuildChannelLookup.vi" Type="VI" URL="../SubVIs/Sequence.BuildChannelLookup.vi"/>
 		<Item Name="Sequence.BuildNewRow.vi" Type="VI" URL="../SubVIs/Sequence.BuildNewRow.vi"/>
 		<Item Name="Sequence.BuildPreviewWaveform.vi" Type="VI" URL="../SubVIs/Sequence.BuildPreviewWaveform.vi"/>
 		<Item Name="Sequence.Compile.vi" Type="VI" URL="../SubVIs/Sequence.Compile.vi"/>
@@ -51,6 +52,5 @@
 		<Item Name="UI.PropertiesTypes.ctl" Type="VI" URL="../Types/UI.PropertiesTypes.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-	<Item Name="Sequence.BuildChannelLookup.vi" Type="VI" URL="../SubVIs/Sequence.BuildChannelLookup.vi"/>
 	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
 </Library>
