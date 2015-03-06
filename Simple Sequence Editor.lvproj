@@ -87,6 +87,7 @@
 			<Item Name="Add Parameter (Double) and Default Assignment.vi" Type="VI" URL="../../Users/blueuser/Desktop/LabVIEW/LabVIEW/SubVIs/Add Parameter (Double) and Default Assignment.vi"/>
 			<Item Name="Set Return Variable (Boolean).vi" Type="VI" URL="../../Users/blueuser/Desktop/LabVIEW/LabVIEW/SubVIs/Set Return Variable (Boolean).vi"/>
 			<Item Name="Add Parameter (U32).vi" Type="VI" URL="../SubVIs/Add Parameter (U32).vi"/>
+			<Item Name="Add Local Variable (U64).vi" Type="VI" URL="../../Users/blueuser/Desktop/LabVIEW/LabVIEW/SubVIs/Add Local Variable (U64).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
