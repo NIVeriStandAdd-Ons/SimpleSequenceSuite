@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Local Variable (U64).vi" Type="VI" URL="../SubVIs/Add Local Variable (U64).vi"/>
+		<Item Name="Add Parameter (Double) and Default Assignment.vi" Type="VI" URL="../SubVIs/Add Parameter (Double) and Default Assignment.vi"/>
+		<Item Name="Add Parameter (U32).vi" Type="VI" URL="../SubVIs/Add Parameter (U32).vi"/>
 		<Item Name="App.Initialize.vi" Type="VI" URL="../SubVIs/App.Initialize.vi"/>
 		<Item Name="App.Open.vi" Type="VI" URL="../SubVIs/App.Open.vi"/>
 		<Item Name="App.Save.vi" Type="VI" URL="../SubVIs/App.Save.vi"/>
@@ -51,6 +54,7 @@
 		<Item Name="Sequence.Preview.vi" Type="VI" URL="../SubVIs/Sequence.Preview.vi"/>
 		<Item Name="Sequence.SeperateMainSections.vi" Type="VI" URL="../SubVIs/Sequence.SeperateMainSections.vi"/>
 		<Item Name="Sequence.UpdateMainTask.vi" Type="VI" URL="../SubVIs/Sequence.UpdateMainTask.vi"/>
+		<Item Name="Set Return Variable (Boolean).vi" Type="VI" URL="../SubVIs/Set Return Variable (Boolean).vi"/>
 		<Item Name="Step.GetProperties.vi" Type="VI" URL="../SubVIs/Step.GetProperties.vi"/>
 		<Item Name="SysDef.Edit.vi" Type="VI" URL="../SubVIs/SysDef.Edit.vi"/>
 		<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/SystemDefinitionSelectionDialog.vi"/>
