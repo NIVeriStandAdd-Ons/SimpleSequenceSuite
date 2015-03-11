@@ -20,6 +20,7 @@
 		<Item Name="Dialog.MassStepGeneration.vi" Type="VI" URL="../SubVIs/Dialog.MassStepGeneration.vi"/>
 		<Item Name="Execute.GetProfilePath.vi" Type="VI" URL="../SubVIs/Execute.GetProfilePath.vi"/>
 		<Item Name="Execute.GetRequiredChannels.vi" Type="VI" URL="../SubVIs/Execute.GetRequiredChannels.vi"/>
+		<Item Name="Execute.GetStatusChannels.vi" Type="VI" URL="../SubVIs/Execute.GetStatusChannels.vi"/>
 		<Item Name="Execute.Initialize.vi" Type="VI" URL="../SubVIs/Execute.Initialize.vi"/>
 		<Item Name="Execute.InitializeSequence.vi" Type="VI" URL="../SubVIs/Execute.InitializeSequence.vi"/>
 		<Item Name="Execute.LoadSequences.vi" Type="VI" URL="../SubVIs/Execute.LoadSequences.vi"/>
@@ -87,6 +88,7 @@
 		<Item Name="Compiled.StepProperties.ctl" Type="VI" URL="../Types/Compiled.StepProperties.ctl"/>
 		<Item Name="Execuction.StateVariables.ctl" Type="VI" URL="../Types/Execuction.StateVariables.ctl"/>
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>
+		<Item Name="Execute.UserEventRefs.ctl" Type="VI" URL="../Types/Execute.UserEventRefs.ctl"/>
 		<Item Name="OperationTypes.ctl" Type="VI" URL="../Types/OperationTypes.ctl"/>
 		<Item Name="Saved.Sequence.ctl" Type="VI" URL="../Types/Saved.Sequence.ctl"/>
 		<Item Name="Sequence.MainSeqRefs.ctl" Type="VI" URL="../Types/Sequence.MainSeqRefs.ctl"/>
