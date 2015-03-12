@@ -30,6 +30,7 @@
 		<Item Name="FileName.StripName.vi" Type="VI" URL="../SubVIs/FileName.StripName.vi"/>
 		<Item Name="INI.GetSettings.vi" Type="VI" URL="../SubVIs/INI.GetSettings.vi"/>
 		<Item Name="LoadSystemDefinition.vi" Type="VI" URL="../SubVIs/LoadSystemDefinition.vi"/>
+		<Item Name="Log.CreateDirectory.vi" Type="VI" URL="../SubVIs/Log.CreateDirectory.vi"/>
 		<Item Name="Menu.BuildSubMenuTag.vi" Type="VI" URL="../SubVIs/Menu.BuildSubMenuTag.vi"/>
 		<Item Name="Menu.Properties.Execute.vi" Type="VI" URL="../SubVIs/Menu.Properties.Execute.vi"/>
 		<Item Name="Menu.Properties.Load.vi" Type="VI" URL="../SubVIs/Menu.Properties.Load.vi"/>
