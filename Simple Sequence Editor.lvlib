@@ -28,6 +28,7 @@
 		<Item Name="Execute.UI.Complete.vi" Type="VI" URL="../SubVIs/Execute.UI.Complete.vi"/>
 		<Item Name="Execute.UI.Running.vi" Type="VI" URL="../SubVIs/Execute.UI.Running.vi"/>
 		<Item Name="FileName.StripName.vi" Type="VI" URL="../SubVIs/FileName.StripName.vi"/>
+		<Item Name="INI.GetSettings.vi" Type="VI" URL="../SubVIs/INI.GetSettings.vi"/>
 		<Item Name="LoadSystemDefinition.vi" Type="VI" URL="../SubVIs/LoadSystemDefinition.vi"/>
 		<Item Name="Menu.BuildSubMenuTag.vi" Type="VI" URL="../SubVIs/Menu.BuildSubMenuTag.vi"/>
 		<Item Name="Menu.Properties.Execute.vi" Type="VI" URL="../SubVIs/Menu.Properties.Execute.vi"/>
@@ -89,6 +90,7 @@
 		<Item Name="Execuction.StateVariables.ctl" Type="VI" URL="../Types/Execuction.StateVariables.ctl"/>
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>
 		<Item Name="Execute.UserEventRefs.ctl" Type="VI" URL="../Types/Execute.UserEventRefs.ctl"/>
+		<Item Name="INI.Settings" Type="VI" URL="../Types/INI.Settings"/>
 		<Item Name="OperationTypes.ctl" Type="VI" URL="../Types/OperationTypes.ctl"/>
 		<Item Name="Saved.Sequence.ctl" Type="VI" URL="../Types/Saved.Sequence.ctl"/>
 		<Item Name="Sequence.MainSeqRefs.ctl" Type="VI" URL="../Types/Sequence.MainSeqRefs.ctl"/>

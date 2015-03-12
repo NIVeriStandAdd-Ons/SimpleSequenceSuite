@@ -19,6 +19,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SupportFiles" Type="Folder">
+			<Item Name="Settings.INI" Type="Document" URL="../Settings.INI"/>
+		</Item>
 		<Item Name="Simple Sequence Editor.lvlib" Type="Library" URL="../Simple Sequence Editor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -74,6 +77,12 @@
 				<Item Name="NI_VS Data Logging API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/DataLogging/NI_VS Data Logging API.lvlib"/>
 				<Item Name="To .NET Object.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/To .NET Object.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
@@ -107,6 +116,7 @@
 			<Item Name="ExecuteCompleted Event Callback.vi" Type="VI" URL="../../Program Files/National Instruments/LabVIEW 2013/examples/NI Veristand/API/Execution API/Sequences/Stimulus Profile Control Tool/ExecuteCompleted Event Callback.vi"/>
 			<Item Name="ProgressChanged Event Callback.vi" Type="VI" URL="../../Program Files/National Instruments/LabVIEW 2013/examples/NI Veristand/API/Execution API/Sequences/Stimulus Profile Control Tool/ProgressChanged Event Callback.vi"/>
 			<Item Name="Project Execution State.ctl" Type="VI" URL="../../Program Files/National Instruments/LabVIEW 2013/examples/NI Veristand/API/Execution API/Sequences/Stimulus Profile Control Tool/Project Execution State.ctl"/>
+			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApiUtilities.dll" Type="Document" URL="../../Program Files/National Instruments/VeriStand 2013/Data/NationalInstruments.VeriStand.RealTimeSequenceDefinitionApiUtilities.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
