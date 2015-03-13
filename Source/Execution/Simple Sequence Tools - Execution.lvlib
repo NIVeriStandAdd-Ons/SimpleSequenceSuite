@@ -8,17 +8,17 @@
 		<Item Name="Execute.CreateEvents.vi" Type="VI" URL="../SubVIs/Execute.CreateEvents.vi"/>
 		<Item Name="Execute.GetProfilePath.vi" Type="VI" URL="../SubVIs/Execute.GetProfilePath.vi"/>
 		<Item Name="Execute.GetRequiredChannels.vi" Type="VI" URL="../SubVIs/Execute.GetRequiredChannels.vi"/>
-		<Item Name="Execute.GetStatusChannels.vi" Type="VI" URL="../SubVIs/Execute.GetStatusChannels.vi"/>
 		<Item Name="Execute.Initialize.vi" Type="VI" URL="../SubVIs/Execute.Initialize.vi"/>
-		<Item Name="Execute.InitializeSequence.vi" Type="VI" URL="../SubVIs/Execute.InitializeSequence.vi"/>
 		<Item Name="Execute.LoadSequences.vi" Type="VI" URL="../SubVIs/Execute.LoadSequences.vi"/>
-		<Item Name="Execute.RunStimulus.vi" Type="VI" URL="../SubVIs/Execute.RunStimulus.vi"/>
-		<Item Name="Execute.Stimulus.Run.vi" Type="VI" URL="../SubVIs/Execute.Stimulus.Run.vi"/>
-		<Item Name="Execute.UI.Complete.vi" Type="VI" URL="../SubVIs/Execute.UI.Complete.vi"/>
+		<Item Name="Execute.OpenSequence.vi" Type="VI" URL="../SubVIs/Execute.OpenSequence.vi"/>
 		<Item Name="Execute.UI.Running.vi" Type="VI" URL="../SubVIs/Execute.UI.Running.vi"/>
 		<Item Name="SequenceEvent.ExecuteCompleted.vi" Type="VI" URL="../SubVIs/SequenceEvent.ExecuteCompleted.vi"/>
 		<Item Name="SequenceEvent.ProgressChanged.vi" Type="VI" URL="../SubVIs/SequenceEvent.ProgressChanged.vi"/>
 		<Item Name="SequenceEvent.PropertyChanged.vi" Type="VI" URL="../SubVIs/SequenceEvent.PropertyChanged.vi"/>
+		<Item Name="Stimulus.Create.vi" Type="VI" URL="../SubVIs/Stimulus.Create.vi"/>
+		<Item Name="Stimulus.GetStatusInfo.vi" Type="VI" URL="../SubVIs/Stimulus.GetStatusInfo.vi"/>
+		<Item Name="Stimulus.Run.vi" Type="VI" URL="../SubVIs/Stimulus.Run.vi"/>
+		<Item Name="UI.StimulusComplete.vi" Type="VI" URL="../SubVIs/UI.StimulusComplete.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>

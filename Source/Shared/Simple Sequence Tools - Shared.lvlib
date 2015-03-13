@@ -10,10 +10,12 @@
 		<Item Name="Channel.BuildMenuName.vi" Type="VI" URL="../SubVIs/Channel.BuildMenuName.vi"/>
 		<Item Name="FileName.StripName.vi" Type="VI" URL="../SubVIs/FileName.StripName.vi"/>
 		<Item Name="INI.GetSettings.vi" Type="VI" URL="../SubVIs/INI.GetSettings.vi"/>
-		<Item Name="Log.CreateDirectory.vi" Type="VI" URL="../SubVIs/Log.CreateDirectory.vi"/>
+		<Item Name="Log.CreateTimeInfo.vi" Type="VI" URL="../SubVIs/Log.CreateTimeInfo.vi"/>
 		<Item Name="Main.Constants.vi" Type="VI" URL="../SubVIs/Main.Constants.vi"/>
+		<Item Name="Sequence.BuildPreviewiStep.vi" Type="VI" URL="../SubVIs/Sequence.BuildPreviewiStep.vi"/>
 		<Item Name="Sequence.BuildPreviewWaveform.vi" Type="VI" URL="../SubVIs/Sequence.BuildPreviewWaveform.vi"/>
 		<Item Name="Sequence.BuildWaveform.vi" Type="VI" URL="../SubVIs/Sequence.BuildWaveform.vi"/>
+		<Item Name="Sequence.BuildWaveformStep.vi" Type="VI" URL="../SubVIs/Sequence.BuildWaveformStep.vi"/>
 		<Item Name="Step.GetProperties.vi" Type="VI" URL="../SubVIs/Step.GetProperties.vi"/>
 		<Item Name="UI.Sequence.BuildRowNames.vi" Type="VI" URL="../SubVIs/UI.Sequence.BuildRowNames.vi"/>
 		<Item Name="UI.Sequence.SetRowWidths.vi" Type="VI" URL="../SubVIs/UI.Sequence.SetRowWidths.vi"/>
