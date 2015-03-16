@@ -25,6 +25,7 @@
 		<Item Name="Sequence.BuildMain.vi" Type="VI" URL="../SubVIs/Sequence.BuildMain.vi"/>
 		<Item Name="Sequence.BuildNewRow.vi" Type="VI" URL="../SubVIs/Sequence.BuildNewRow.vi"/>
 		<Item Name="Sequence.BuildSetup.vi" Type="VI" URL="../SubVIs/Sequence.BuildSetup.vi"/>
+		<Item Name="Sequence.CheckNameConflicts.vi" Type="VI" URL="../SubVIs/Sequence.CheckNameConflicts.vi"/>
 		<Item Name="Sequence.Compile.vi" Type="VI" URL="../SubVIs/Sequence.Compile.vi"/>
 		<Item Name="Sequence.CompleteMain.vi" Type="VI" URL="../SubVIs/Sequence.CompleteMain.vi"/>
 		<Item Name="Sequence.ConvertColumnHeadersToChannels.vi" Type="VI" URL="../SubVIs/Sequence.ConvertColumnHeadersToChannels.vi"/>
@@ -43,6 +44,7 @@
 		<Item Name="Sequence.GenerateSequence.vi" Type="VI" URL="../SubVIs/Sequence.GenerateSequence.vi"/>
 		<Item Name="Sequence.GetiStepProperties.vi" Type="VI" URL="../SubVIs/Sequence.GetiStepProperties.vi"/>
 		<Item Name="Sequence.GetSequenceChannels.vi" Type="VI" URL="../SubVIs/Sequence.GetSequenceChannels.vi"/>
+		<Item Name="Sequence.InitializeChannel.vi" Type="VI" URL="../SubVIs/Sequence.InitializeChannel.vi"/>
 		<Item Name="Sequence.InitializeMain.vi" Type="VI" URL="../SubVIs/Sequence.InitializeMain.vi"/>
 		<Item Name="Sequence.Preview.vi" Type="VI" URL="../SubVIs/Sequence.Preview.vi"/>
 		<Item Name="Sequence.SeperateMainSections.vi" Type="VI" URL="../SubVIs/Sequence.SeperateMainSections.vi"/>
