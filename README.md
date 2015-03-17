@@ -3,6 +3,9 @@ Simple-Sequence-Suite
 
 This suite contains two applications.  The first is a simple sequence editor.  It is intended to be a spreadsheet style editor that generates NI VeriStand RT Sequences.  It is meant to work for 80% of test cell applications.  It enforces some best practices around aliases, test reuse, sequence restarts, sequence monitoring, etc.  The editor can be used offline as an EXE or as part of the NI VeriStand Workspace tools menu. The second application is a simple sequence execution tool to load, run, and control sequences generated from the editor.  The execution tool also adds some nice features for restarts, sequence execution display, logging, safety checking, etc.
 
+NI Employees can get more information here:
+https://nitalk.jiveon.com/blogs/deaton/2015/03/17/simple-sequence-tools
+
 ### LabVIEW Version ###
 
 LabVIEW 2013
