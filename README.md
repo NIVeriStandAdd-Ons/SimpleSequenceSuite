@@ -1,4 +1,4 @@
-Simple-Sequence-Tools
+Simple-Sequence-Suite
 ===================
 
 These tools contain two applications.  The first is a simple sequence editor.  The simple sequence editor is intended to be a spreadsheet style sequence editor.  It is meant to work for 80% of test cell applications.  It enforces some best practices around aliases, test reuse, sequence restarts, sequence monitoring, etc.  The editor can be used offline as an EXE or part of the NI VeriStand Workspace tools menu. The second is a simple sequence execution tool to load, run, and control sequences generated from the editor.  The execution tool also adds some nice features for restarts, sequence execution display, etc.
