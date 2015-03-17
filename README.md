@@ -1,7 +1,7 @@
-Control-Custom-Device
+Simple-Sequence-Tools
 ===================
 
-This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes..
+These tools contain two applications.  The first is a simple sequence editor.  The simple sequence editor is intended to be a spreadsheet style sequence editor.  It is meant to work for 80% of test cell applications.  It enforces some best practices around aliases, test reuse, sequence restarts, sequence monitoring, etc.  The editor can be used offline as an EXE or part of the NI VeriStand Workspace tools menu. The second is a simple sequence execution tool to load, run, and control sequences generated from the editor.  The execution tool also adds some nice features for restarts, sequence execution display, etc.
 
 ### LabVIEW Version ###
 
@@ -13,13 +13,11 @@ Users are allowed to build anything under Build Specifications in the source's L
 
 ### Quality, Limitations ###
 
-IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
-
-IP does not support multiple modes for per PID controller.
+IP has been tested by developer. It is currently being tested with customers.
 
 ### Dependencies ###
 
-LabVIEW Control or LabVIEW RT 2013 (required for PID VIs)
+NI VeriStand 2013 (or later) APIs
 
 ### License ###
 

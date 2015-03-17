@@ -1,6 +1,4 @@
-Source\Control Addon Custom Device.lvproj	My Computer	Configuration Release
-Source\Control Addon Custom Device.lvproj	My Computer	Engine Release
-Source\Control Addon Custom Device.lvproj	My Computer	Workspace Tool
-Source\Control Addon Custom Device.lvproj	My Computer	Control Workspace Objects
-Source\Control Addon Custom Device.lvproj	RT PXI Target	Engine Release
-Source\Control Addon Custom Device.lvproj	RT CompactRIO Target	Engine Release
+Source\Simple Sequence Tools.lvproj	My Computer	Execution Tool LLB
+Source\Simple Sequence Tools.lvproj	My Computer	Sequence Editor Tool LLB
+Source\Simple Sequence Tools.lvproj	My Computer	Editor Exe
+Source\Simple Sequence Tools.lvproj	My Computer	Sequence Execution Exe

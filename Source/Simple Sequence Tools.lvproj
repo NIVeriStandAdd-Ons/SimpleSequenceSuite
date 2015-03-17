@@ -177,10 +177,10 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
-			<Item Name="Sequence Edtior Tool LLB" Type="Source Distribution">
+			<Item Name="Sequence Editor Tool LLB" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{522D9586-BEE7-42FD-AC10-0DBBC0F93860}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Sequence Edtior Tool LLB</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sequence Editor Tool LLB</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
@@ -200,7 +200,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F3699053-04DB-45D0-A27D-6CA673ED2645}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A4FCC28B-2F8E-417F-B3C0-E3F2C9EC8863}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simple Sequence Tools - Shared.lvlib</Property>
