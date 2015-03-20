@@ -113,6 +113,12 @@
 	<Code>
 		<Setup>
 			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Abort = 0</ExpressionString>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Skip = 0</ExpressionString>
+				</Statement>
 				<Statement xsi:type="IfElse">
 					<TestExpression>
 						<ExpressionString>SequenceStartingStep &gt; 0</ExpressionString>
@@ -187,7 +193,7 @@
 																			<Task>
 																				<Body>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>EngineTorque_Nm = 1000.000000</ExpressionString>
+																						<ExpressionString>EngineTorque_Nm = 0.000000</ExpressionString>
 																					</Statement>
 																					<Statement xsi:type="Expression">
 																						<ExpressionString>Wait(5.000000)</ExpressionString>
