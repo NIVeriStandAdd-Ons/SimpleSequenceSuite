@@ -26,6 +26,7 @@
 		<Item Name="Restart.LoadSettings.vi" Type="VI" URL="../SubVIs/Restart.LoadSettings.vi"/>
 		<Item Name="Stimulus.Open.vi" Type="VI" URL="../SubVIs/Stimulus.Open.vi"/>
 		<Item Name="UI.StimulusRestart.vi" Type="VI" URL="../SubVIs/UI.StimulusRestart.vi"/>
+		<Item Name="Restart.CacheCurrentLocation.vi" Type="VI" URL="../SubVIs/Restart.CacheCurrentLocation.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>
