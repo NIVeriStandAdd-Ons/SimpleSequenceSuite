@@ -24,6 +24,8 @@
 		<Item Name="Restart.HandleSequenceFinishedEvent.vi" Type="VI" URL="../SubVIs/Restart.HandleSequenceFinishedEvent.vi"/>
 		<Item Name="Restart.SaveSettings.vi" Type="VI" URL="../SubVIs/Restart.SaveSettings.vi"/>
 		<Item Name="Restart.LoadSettings.vi" Type="VI" URL="../SubVIs/Restart.LoadSettings.vi"/>
+		<Item Name="Stimulus.Open.vi" Type="VI" URL="../SubVIs/Stimulus.Open.vi"/>
+		<Item Name="UI.StimulusRestart.vi" Type="VI" URL="../SubVIs/UI.StimulusRestart.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>
@@ -36,6 +38,4 @@
 	</Item>
 	<Item Name="Sequence Execution.rtm" Type="Document" URL="../Sequence Execution.rtm"/>
 	<Item Name="Sequence Execution.vi" Type="VI" URL="../Sequence Execution.vi"/>
-	<Item Name="Stimulus.Open.vi" Type="VI" URL="../SubVIs/Stimulus.Open.vi"/>
-	<Item Name="UI.StimulusRestart.vi" Type="VI" URL="../SubVIs/UI.StimulusRestart.vi"/>
 </Library>
