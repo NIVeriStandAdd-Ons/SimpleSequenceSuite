@@ -36,4 +36,6 @@
 	</Item>
 	<Item Name="Sequence Execution.rtm" Type="Document" URL="../Sequence Execution.rtm"/>
 	<Item Name="Sequence Execution.vi" Type="VI" URL="../Sequence Execution.vi"/>
+	<Item Name="Stimulus.Open.vi" Type="VI" URL="../SubVIs/Stimulus.Open.vi"/>
+	<Item Name="UI.StimulusRestart.vi" Type="VI" URL="../SubVIs/UI.StimulusRestart.vi"/>
 </Library>
