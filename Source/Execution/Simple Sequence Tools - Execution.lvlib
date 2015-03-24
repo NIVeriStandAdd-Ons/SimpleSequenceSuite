@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Execute.CreateEvents.vi" Type="VI" URL="../SubVIs/Execute.CreateEvents.vi"/>
 		<Item Name="Execute.GetProfilePath.vi" Type="VI" URL="../SubVIs/Execute.GetProfilePath.vi"/>
@@ -19,12 +20,20 @@
 		<Item Name="Stimulus.GetStatusInfo.vi" Type="VI" URL="../SubVIs/Stimulus.GetStatusInfo.vi"/>
 		<Item Name="Stimulus.Run.vi" Type="VI" URL="../SubVIs/Stimulus.Run.vi"/>
 		<Item Name="UI.StimulusComplete.vi" Type="VI" URL="../SubVIs/UI.StimulusComplete.vi"/>
+		<Item Name="Results.Get.vi" Type="VI" URL="../SubVIs/Results.Get.vi"/>
+		<Item Name="Restart.HandleSequenceFinishedEvent.vi" Type="VI" URL="../SubVIs/Restart.HandleSequenceFinishedEvent.vi"/>
+		<Item Name="Restart.SaveSettings.vi" Type="VI" URL="../SubVIs/Restart.SaveSettings.vi"/>
+		<Item Name="Restart.LoadSettings.vi" Type="VI" URL="../SubVIs/Restart.LoadSettings.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>
 		<Item Name="Execute.UserEventRefs.ctl" Type="VI" URL="../Types/Execute.UserEventRefs.ctl"/>
+		<Item Name="Log.SelectedChannels.ctl" Type="VI" URL="../Types/Log.SelectedChannels.ctl"/>
 		<Item Name="Execution.SequenceState.ctl" Type="VI" URL="../Types/Execution.SequenceState.ctl"/>
 		<Item Name="Main.StateVariables.ctl" Type="VI" URL="../Types/Main.StateVariables.ctl"/>
+		<Item Name="Results.Value.ctl" Type="VI" URL="../Types/Results.Value.ctl"/>
+		<Item Name="Restart.Settings" Type="VI" URL="../Types/Restart.Settings"/>
 	</Item>
+	<Item Name="Sequence Execution.rtm" Type="Document" URL="../Sequence Execution.rtm"/>
 	<Item Name="Sequence Execution.vi" Type="VI" URL="../Sequence Execution.vi"/>
 </Library>

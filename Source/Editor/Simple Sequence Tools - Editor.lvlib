@@ -48,6 +48,7 @@
 		<Item Name="Sequence.InitializeMain.vi" Type="VI" URL="../SubVIs/Sequence.InitializeMain.vi"/>
 		<Item Name="Sequence.Preview.vi" Type="VI" URL="../SubVIs/Sequence.Preview.vi"/>
 		<Item Name="Sequence.SeperateMainSections.vi" Type="VI" URL="../SubVIs/Sequence.SeperateMainSections.vi"/>
+		<Item Name="Sequence.SetVersion.vi" Type="VI" URL="../SubVIs/Sequence.SetVersion.vi"/>
 		<Item Name="Sequence.UpdateMainTask.vi" Type="VI" URL="../SubVIs/Sequence.UpdateMainTask.vi"/>
 		<Item Name="Set Return Variable (Boolean).vi" Type="VI" URL="../SubVIs/Set Return Variable (Boolean).vi"/>
 		<Item Name="SysDef.Edit.vi" Type="VI" URL="../SubVIs/SysDef.Edit.vi"/>

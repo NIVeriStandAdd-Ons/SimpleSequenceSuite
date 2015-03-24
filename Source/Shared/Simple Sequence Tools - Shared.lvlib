@@ -16,6 +16,7 @@
 		<Item Name="Sequence.BuildPreviewWaveform.vi" Type="VI" URL="../SubVIs/Sequence.BuildPreviewWaveform.vi"/>
 		<Item Name="Sequence.BuildWaveform.vi" Type="VI" URL="../SubVIs/Sequence.BuildWaveform.vi"/>
 		<Item Name="Sequence.BuildWaveformStep.vi" Type="VI" URL="../SubVIs/Sequence.BuildWaveformStep.vi"/>
+		<Item Name="Sequence.GetVersion.vi" Type="VI" URL="../SubVIs/Sequence.GetVersion.vi"/>
 		<Item Name="Step.GetProperties.vi" Type="VI" URL="../SubVIs/Step.GetProperties.vi"/>
 		<Item Name="UI.Sequence.BuildRowNames.vi" Type="VI" URL="../SubVIs/UI.Sequence.BuildRowNames.vi"/>
 		<Item Name="UI.Sequence.SetRowWidths.vi" Type="VI" URL="../SubVIs/UI.Sequence.SetRowWidths.vi"/>

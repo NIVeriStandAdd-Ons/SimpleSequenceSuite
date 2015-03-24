@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
-	<Version Major="1" Minor="0" Fix="0" Build="1" />
+	<Version Major="1" Minor="0" Fix="0" Build="13" />
 	<References>
 		<Reference>
 			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Waveforms\Ramp.nivsseq</Path>
@@ -16,7 +16,7 @@
 		<ReturnType>
 			<Identifier>Pass</Identifier>
 			<DefaultValue xsi:type="BooleanValue">
-				<Value>true</Value>
+				<Value>false</Value>
 			</DefaultValue>
 		</ReturnType>
 		<Parameters>
@@ -557,6 +557,9 @@
 						</Body>
 						<TaskName>Abort</TaskName>
 					</Task>
+				</Statement>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Pass = true</ExpressionString>
 				</Statement>
 			</Body>
 		</Main>
