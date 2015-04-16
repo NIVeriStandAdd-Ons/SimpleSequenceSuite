@@ -17,6 +17,7 @@
 		<Item Name="SequenceEvent.ProgressChanged.vi" Type="VI" URL="../SubVIs/SequenceEvent.ProgressChanged.vi"/>
 		<Item Name="SequenceEvent.PropertyChanged.vi" Type="VI" URL="../SubVIs/SequenceEvent.PropertyChanged.vi"/>
 		<Item Name="Stimulus.Create.vi" Type="VI" URL="../SubVIs/Stimulus.Create.vi"/>
+		<Item Name="Stimulus.GetVersion.vi" Type="VI" URL="../SubVIs/Stimulus.GetVersion.vi"/>
 		<Item Name="Stimulus.GetStatusInfo.vi" Type="VI" URL="../SubVIs/Stimulus.GetStatusInfo.vi"/>
 		<Item Name="Stimulus.Run.vi" Type="VI" URL="../SubVIs/Stimulus.Run.vi"/>
 		<Item Name="UI.StimulusComplete.vi" Type="VI" URL="../SubVIs/UI.StimulusComplete.vi"/>
@@ -39,4 +40,5 @@
 	</Item>
 	<Item Name="Sequence Execution.rtm" Type="Document" URL="../Sequence Execution.rtm"/>
 	<Item Name="Sequence Execution.vi" Type="VI" URL="../Sequence Execution.vi"/>
+	<Item Name="Restart.CheckValidSelection.vi" Type="VI" URL="../SubVIs/Restart.CheckValidSelection.vi"/>
 </Library>
