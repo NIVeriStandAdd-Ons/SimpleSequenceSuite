@@ -28,6 +28,7 @@
 		<Item Name="Stimulus.Open.vi" Type="VI" URL="../SubVIs/Stimulus.Open.vi"/>
 		<Item Name="UI.StimulusRestart.vi" Type="VI" URL="../SubVIs/UI.StimulusRestart.vi"/>
 		<Item Name="Restart.CacheCurrentLocation.vi" Type="VI" URL="../SubVIs/Restart.CacheCurrentLocation.vi"/>
+		<Item Name="Restart.CheckValidSelection.vi" Type="VI" URL="../SubVIs/Restart.CheckValidSelection.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Execute.PreviewMode.ctl" Type="VI" URL="../Types/Execute.PreviewMode.ctl"/>
@@ -40,5 +41,4 @@
 	</Item>
 	<Item Name="Sequence Execution.rtm" Type="Document" URL="../Sequence Execution.rtm"/>
 	<Item Name="Sequence Execution.vi" Type="VI" URL="../Sequence Execution.vi"/>
-	<Item Name="Restart.CheckValidSelection.vi" Type="VI" URL="../SubVIs/Restart.CheckValidSelection.vi"/>
 </Library>
