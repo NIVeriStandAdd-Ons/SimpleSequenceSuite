@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Local Variable (Double Array).vi" Type="VI" URL="../SubVIs/Add Local Variable (Double Array).vi"/>
 		<Item Name="Add Local Variable (U64).vi" Type="VI" URL="../SubVIs/Add Local Variable (U64).vi"/>
 		<Item Name="Add Parameter (Double) and Default Assignment.vi" Type="VI" URL="../SubVIs/Add Parameter (Double) and Default Assignment.vi"/>
 		<Item Name="Add Parameter (U32).vi" Type="VI" URL="../SubVIs/Add Parameter (U32).vi"/>
@@ -31,6 +32,7 @@
 		<Item Name="Sequence.ConvertColumnHeadersToChannels.vi" Type="VI" URL="../SubVIs/Sequence.ConvertColumnHeadersToChannels.vi"/>
 		<Item Name="Sequence.CreateCase.vi" Type="VI" URL="../SubVIs/Sequence.CreateCase.vi"/>
 		<Item Name="Sequence.CreateConditions.vi" Type="VI" URL="../SubVIs/Sequence.CreateConditions.vi"/>
+		<Item Name="Sequence.CreateLocalVariables.vi" Type="VI" URL="../SubVIs/Sequence.CreateLocalVariables.vi"/>
 		<Item Name="Sequence.CreateMainForLoop.vi" Type="VI" URL="../SubVIs/Sequence.CreateMainForLoop.vi"/>
 		<Item Name="Sequence.CreateMainSwitch.vi" Type="VI" URL="../SubVIs/Sequence.CreateMainSwitch.vi"/>
 		<Item Name="Sequence.CreateMainWhileLoop.vi" Type="VI" URL="../SubVIs/Sequence.CreateMainWhileLoop.vi"/>
@@ -51,6 +53,7 @@
 		<Item Name="Sequence.SetVersion.vi" Type="VI" URL="../SubVIs/Sequence.SetVersion.vi"/>
 		<Item Name="Sequence.UpdateMainTask.vi" Type="VI" URL="../SubVIs/Sequence.UpdateMainTask.vi"/>
 		<Item Name="Set Return Variable (Boolean).vi" Type="VI" URL="../SubVIs/Set Return Variable (Boolean).vi"/>
+		<Item Name="Sweep.Timed.vi" Type="VI" URL="../SubVIs/Sweep.Timed.vi"/>
 		<Item Name="SysDef.Edit.vi" Type="VI" URL="../SubVIs/SysDef.Edit.vi"/>
 		<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/SystemDefinitionSelectionDialog.vi"/>
 		<Item Name="UI.LoadComboBoxes.vi" Type="VI" URL="../SubVIs/UI.LoadComboBoxes.vi"/>
