@@ -53,7 +53,6 @@
 		<Item Name="Sequence.SetVersion.vi" Type="VI" URL="../SubVIs/Sequence.SetVersion.vi"/>
 		<Item Name="Sequence.UpdateMainTask.vi" Type="VI" URL="../SubVIs/Sequence.UpdateMainTask.vi"/>
 		<Item Name="Set Return Variable (Boolean).vi" Type="VI" URL="../SubVIs/Set Return Variable (Boolean).vi"/>
-		<Item Name="Sweep.Timed.vi" Type="VI" URL="../SubVIs/Sweep.Timed.vi"/>
 		<Item Name="SysDef.Edit.vi" Type="VI" URL="../SubVIs/SysDef.Edit.vi"/>
 		<Item Name="SystemDefinitionSelectionDialog.vi" Type="VI" URL="../SubVIs/SystemDefinitionSelectionDialog.vi"/>
 		<Item Name="UI.LoadComboBoxes.vi" Type="VI" URL="../SubVIs/UI.LoadComboBoxes.vi"/>

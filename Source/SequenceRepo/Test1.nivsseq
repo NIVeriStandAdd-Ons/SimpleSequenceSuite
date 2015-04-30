@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
-	<Version Major="1" Minor="0" Fix="0" Build="13" />
+	<Version Major="1" Minor="0" Fix="0" Build="15" />
 	<References>
 		<Reference>
 			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Waveforms\Ramp.nivsseq</Path>
@@ -10,6 +10,14 @@
 		<Reference>
 			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\Wait.nivsseq</Path>
 			<Alias>Wait</Alias>
+		</Reference>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Waveforms\SineWave.nivsseq</Path>
+			<Alias>SineWave</Alias>
+		</Reference>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Waveforms\PlayWaveform.nivsseq</Path>
+			<Alias>PlayWaveform</Alias>
 		</Reference>
 	</References>
 	<Variables>
@@ -53,14 +61,6 @@
 				<DefaultAssignment Path="Aliases/EngineSpeed" />
 			</ParameterDeclaration>
 			<ParameterDeclaration>
-				<Identifier>EngineTemp</Identifier>
-				<DefaultValue xsi:type="DoubleValue">
-					<Value>0</Value>
-				</DefaultValue>
-				<EvaluationMethod>ByReference</EvaluationMethod>
-				<DefaultAssignment Path="Aliases/EngineTemp" />
-			</ParameterDeclaration>
-			<ParameterDeclaration>
 				<Identifier>EngineTorque_Nm</Identifier>
 				<DefaultValue xsi:type="DoubleValue">
 					<Value>0</Value>
@@ -91,14 +91,6 @@
 				</DefaultValue>
 				<EvaluationMethod>ByReference</EvaluationMethod>
 				<DefaultAssignment Path="Aliases/Skip" />
-			</ParameterDeclaration>
-			<ParameterDeclaration>
-				<Identifier>StepInfo</Identifier>
-				<DefaultValue xsi:type="DoubleValue">
-					<Value>0</Value>
-				</DefaultValue>
-				<EvaluationMethod>ByReference</EvaluationMethod>
-				<DefaultAssignment Path="Aliases/StepInfo" />
 			</ParameterDeclaration>
 		</Parameters>
 		<LocalVariables>
@@ -176,16 +168,16 @@
 																<Task>
 																	<Body>
 																		<Statement xsi:type="Expression">
-																			<ExpressionString>StepInfo = 1</ExpressionString>
+																			<ExpressionString>Skip = 1</ExpressionString>
 																		</Statement>
 																		<Statement xsi:type="Multitask">
 																			<Task>
 																				<Body>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>EngineSpeed_RPM = 1000.000000</ExpressionString>
+																						<ExpressionString>EngineTorque_Nm = 0.000000</ExpressionString>
 																					</Statement>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>Wait(5.000000)</ExpressionString>
+																						<ExpressionString>Wait(1.000000)</ExpressionString>
 																					</Statement>
 																				</Body>
 																				<TaskName>StepExe_0_0</TaskName>
@@ -193,10 +185,10 @@
 																			<Task>
 																				<Body>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>EngineTorque_Nm = 0.000000</ExpressionString>
+																						<ExpressionString>FacilityStuff = 1.000000</ExpressionString>
 																					</Statement>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>Wait(5.000000)</ExpressionString>
+																						<ExpressionString>Wait(1.000000)</ExpressionString>
 																					</Statement>
 																				</Body>
 																				<TaskName>StepExe_0_1</TaskName>
@@ -204,21 +196,14 @@
 																			<Task>
 																				<Body>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>FacilityStuff = 1.000000</ExpressionString>
+																						<ExpressionString>EngineSpeed_RPM = 1000.000000</ExpressionString>
 																					</Statement>
 																					<Statement xsi:type="Expression">
-																						<ExpressionString>Wait(5.000000)</ExpressionString>
+																						<ExpressionString>Wait(1.000000)</ExpressionString>
 																					</Statement>
 																				</Body>
 																				<TaskName>StepExe_0_2</TaskName>
 																			</Task>
-																		</Statement>
-																		<Statement xsi:type="WhileLoop">
-																			<AutoYield>true</AutoYield>
-																			<Body />
-																			<LoopTest>
-																				<ExpressionString>(EngineTemp &gt; 100) == false</ExpressionString>
-																			</LoopTest>
 																		</Statement>
 																		<Statement xsi:type="StopTask">
 																			<TaskName>StepManage_0</TaskName>
@@ -256,40 +241,36 @@
 																<Task>
 																	<Body>
 																		<Statement xsi:type="Expression">
-																			<ExpressionString>StepInfo = 2</ExpressionString>
+																			<ExpressionString>Skip = 2</ExpressionString>
 																		</Statement>
 																		<Statement xsi:type="ForLoop">
 																			<AutoYield>true</AutoYield>
 																			<Body>
 																				<Statement xsi:type="Multitask">
 																					<Task>
+																						<Body />
+																						<TaskName>StepExe_1_0</TaskName>
+																					</Task>
+																					<Task>
+																						<Body />
+																						<TaskName>StepExe_1_1</TaskName>
+																					</Task>
+																					<Task>
 																						<Body>
 																							<Statement xsi:type="Expression">
-																								<ExpressionString>EngineSpeed_RPM = (1000.000000 + 1000.000000*i1)</ExpressionString>
+																								<ExpressionString>EngineSpeed_RPM = (7000.000000 + -1000.000000*i1)</ExpressionString>
 																							</Statement>
 																							<Statement xsi:type="Expression">
 																								<ExpressionString>Wait(10.000000)</ExpressionString>
 																							</Statement>
 																						</Body>
-																						<TaskName>StepExe_1_0</TaskName>
-																					</Task>
-																					<Task>
-																						<Body>
-																							<Statement xsi:type="Expression">
-																								<ExpressionString>Ramp(EngineTorque_Nm, 0.000000, 250.000000, 10.000000)</ExpressionString>
-																							</Statement>
-																						</Body>
-																						<TaskName>StepExe_1_1</TaskName>
-																					</Task>
-																					<Task>
-																						<Body />
 																						<TaskName>StepExe_1_2</TaskName>
 																					</Task>
 																				</Statement>
 																			</Body>
 																			<LoopVariable>i1</LoopVariable>
 																			<Iterations>
-																				<ExpressionString>6</ExpressionString>
+																				<ExpressionString>7</ExpressionString>
 																			</Iterations>
 																		</Statement>
 																		<Statement xsi:type="StopTask">
@@ -328,29 +309,37 @@
 																<Task>
 																	<Body>
 																		<Statement xsi:type="Expression">
-																			<ExpressionString>StepInfo = 3</ExpressionString>
+																			<ExpressionString>Skip = 3</ExpressionString>
 																		</Statement>
-																		<Statement xsi:type="Multitask">
-																			<Task>
-																				<Body>
-																					<Statement xsi:type="Expression">
-																						<ExpressionString>Ramp(EngineSpeed_RPM, 6000.000000, 1000.000000, 10.000000)</ExpressionString>
-																					</Statement>
-																				</Body>
-																				<TaskName>StepExe_2_0</TaskName>
-																			</Task>
-																			<Task>
-																				<Body>
-																					<Statement xsi:type="Expression">
-																						<ExpressionString>Ramp(EngineTorque_Nm, 250.000000, 0.000000, 10.000000)</ExpressionString>
-																					</Statement>
-																				</Body>
-																				<TaskName>StepExe_2_1</TaskName>
-																			</Task>
-																			<Task>
-																				<Body />
-																				<TaskName>StepExe_2_2</TaskName>
-																			</Task>
+																		<Statement xsi:type="ForLoop">
+																			<AutoYield>true</AutoYield>
+																			<Body>
+																				<Statement xsi:type="Multitask">
+																					<Task>
+																						<Body />
+																						<TaskName>StepExe_2_0</TaskName>
+																					</Task>
+																					<Task>
+																						<Body />
+																						<TaskName>StepExe_2_1</TaskName>
+																					</Task>
+																					<Task>
+																						<Body>
+																							<Statement xsi:type="Expression">
+																								<ExpressionString>EngineSpeed_RPM = (1000.000000 + 1000.000000*i2)</ExpressionString>
+																							</Statement>
+																							<Statement xsi:type="Expression">
+																								<ExpressionString>Wait(10.000000)</ExpressionString>
+																							</Statement>
+																						</Body>
+																						<TaskName>StepExe_2_2</TaskName>
+																					</Task>
+																				</Statement>
+																			</Body>
+																			<LoopVariable>i2</LoopVariable>
+																			<Iterations>
+																				<ExpressionString>7</ExpressionString>
+																			</Iterations>
 																		</Statement>
 																		<Statement xsi:type="StopTask">
 																			<TaskName>StepManage_2</TaskName>
@@ -382,138 +371,6 @@
 															<ExpressionString>2</ExpressionString>
 														</CaseValue>
 													</CaseStatement>
-													<CaseStatement>
-														<Body>
-															<Statement xsi:type="Multitask">
-																<Task>
-																	<Body>
-																		<Statement xsi:type="Expression">
-																			<ExpressionString>StepInfo = 4</ExpressionString>
-																		</Statement>
-																		<Statement xsi:type="ForLoop">
-																			<AutoYield>true</AutoYield>
-																			<Body>
-																				<Statement xsi:type="Multitask">
-																					<Task>
-																						<Body>
-																							<Statement xsi:type="Expression">
-																								<ExpressionString>Ramp(EngineSpeed_RPM, 1000.000000, 6000.000000, 10.000000)</ExpressionString>
-																							</Statement>
-																						</Body>
-																						<TaskName>StepExe_3_0</TaskName>
-																					</Task>
-																					<Task>
-																						<Body>
-																							<Statement xsi:type="Expression">
-																								<ExpressionString>EngineTorque_Nm = (0.000000 + 50.000000*i3)</ExpressionString>
-																							</Statement>
-																							<Statement xsi:type="Expression">
-																								<ExpressionString>Wait(10.000000)</ExpressionString>
-																							</Statement>
-																						</Body>
-																						<TaskName>StepExe_3_1</TaskName>
-																					</Task>
-																					<Task>
-																						<Body />
-																						<TaskName>StepExe_3_2</TaskName>
-																					</Task>
-																				</Statement>
-																			</Body>
-																			<LoopVariable>i3</LoopVariable>
-																			<Iterations>
-																				<ExpressionString>6</ExpressionString>
-																			</Iterations>
-																		</Statement>
-																		<Statement xsi:type="StopTask">
-																			<TaskName>StepManage_3</TaskName>
-																		</Statement>
-																	</Body>
-																	<TaskName>StepExe_3</TaskName>
-																</Task>
-																<Task>
-																	<Body>
-																		<Statement xsi:type="WhileLoop">
-																			<AutoYield>true</AutoYield>
-																			<Body />
-																			<LoopTest>
-																				<ExpressionString>(Skip &lt; 1) </ExpressionString>
-																			</LoopTest>
-																		</Statement>
-																		<Statement xsi:type="StopTask">
-																			<TaskName>StepExe_3</TaskName>
-																		</Statement>
-																	</Body>
-																	<TaskName>StepManage_3</TaskName>
-																</Task>
-															</Statement>
-															<Statement xsi:type="Expression">
-																<ExpressionString>Skip = 0</ExpressionString>
-															</Statement>
-														</Body>
-														<CaseValue>
-															<ExpressionString>3</ExpressionString>
-														</CaseValue>
-													</CaseStatement>
-													<CaseStatement>
-														<Body>
-															<Statement xsi:type="Multitask">
-																<Task>
-																	<Body>
-																		<Statement xsi:type="Expression">
-																			<ExpressionString>StepInfo = 5</ExpressionString>
-																		</Statement>
-																		<Statement xsi:type="Multitask">
-																			<Task>
-																				<Body>
-																					<Statement xsi:type="Expression">
-																						<ExpressionString>Ramp(EngineSpeed_RPM, 6000.000000, 1000.000000, 10.000000)</ExpressionString>
-																					</Statement>
-																				</Body>
-																				<TaskName>StepExe_4_0</TaskName>
-																			</Task>
-																			<Task>
-																				<Body>
-																					<Statement xsi:type="Expression">
-																						<ExpressionString>Ramp(EngineTorque_Nm, 250.000000, 0.000000, 10.000000)</ExpressionString>
-																					</Statement>
-																				</Body>
-																				<TaskName>StepExe_4_1</TaskName>
-																			</Task>
-																			<Task>
-																				<Body />
-																				<TaskName>StepExe_4_2</TaskName>
-																			</Task>
-																		</Statement>
-																		<Statement xsi:type="StopTask">
-																			<TaskName>StepManage_4</TaskName>
-																		</Statement>
-																	</Body>
-																	<TaskName>StepExe_4</TaskName>
-																</Task>
-																<Task>
-																	<Body>
-																		<Statement xsi:type="WhileLoop">
-																			<AutoYield>true</AutoYield>
-																			<Body />
-																			<LoopTest>
-																				<ExpressionString>(Skip &lt; 1) </ExpressionString>
-																			</LoopTest>
-																		</Statement>
-																		<Statement xsi:type="StopTask">
-																			<TaskName>StepExe_4</TaskName>
-																		</Statement>
-																	</Body>
-																	<TaskName>StepManage_4</TaskName>
-																</Task>
-															</Statement>
-															<Statement xsi:type="Expression">
-																<ExpressionString>Skip = 0</ExpressionString>
-															</Statement>
-														</Body>
-														<CaseValue>
-															<ExpressionString>4</ExpressionString>
-														</CaseValue>
-													</CaseStatement>
 												</Cases>
 												<Default>
 													<Body />
@@ -524,7 +381,7 @@
 											</Statement>
 										</Body>
 										<LoopTest>
-											<ExpressionString>(TempStepInfo &lt; 5)</ExpressionString>
+											<ExpressionString>(TempStepInfo &lt; 3)</ExpressionString>
 										</LoopTest>
 									</Statement>
 									<Statement xsi:type="Expression">
@@ -533,7 +390,7 @@
 								</Body>
 								<LoopVariable>i</LoopVariable>
 								<Iterations>
-									<ExpressionString>(2 - SequenceStartingIteration)</ExpressionString>
+									<ExpressionString>(5 - SequenceStartingIteration)</ExpressionString>
 								</Iterations>
 							</Statement>
 							<Statement xsi:type="StopTask">
