@@ -6,8 +6,10 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Local Variable (Double Array).vi" Type="VI" URL="../SubVIs/Add Local Variable (Double Array).vi"/>
+		<Item Name="Add Local Variable (Double).vi" Type="VI" URL="../SubVIs/Add Local Variable (Double).vi"/>
 		<Item Name="Add Local Variable (U64).vi" Type="VI" URL="../SubVIs/Add Local Variable (U64).vi"/>
 		<Item Name="Add Parameter (Double) and Default Assignment.vi" Type="VI" URL="../SubVIs/Add Parameter (Double) and Default Assignment.vi"/>
+		<Item Name="Add Parameter (Double).vi" Type="VI" URL="../SubVIs/Add Parameter (Double).vi"/>
 		<Item Name="Add Parameter (U32).vi" Type="VI" URL="../SubVIs/Add Parameter (U32).vi"/>
 		<Item Name="App.Initialize.vi" Type="VI" URL="../SubVIs/App.Initialize.vi"/>
 		<Item Name="App.Open.vi" Type="VI" URL="../SubVIs/App.Open.vi"/>
@@ -19,6 +21,7 @@
 		<Item Name="Menu.BuildSubMenuTag.vi" Type="VI" URL="../SubVIs/Menu.BuildSubMenuTag.vi"/>
 		<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/Menu.Sequence.Load.vi"/>
 		<Item Name="Menu.Sequeunce.Execute.vi" Type="VI" URL="../SubVIs/Menu.Sequeunce.Execute.vi"/>
+		<Item Name="Sequence.AddDurationTrackingLoop.vi" Type="VI" URL="../SubVIs/Sequence.AddDurationTrackingLoop.vi"/>
 		<Item Name="Sequence.AddReferences.vi" Type="VI" URL="../SubVIs/Sequence.AddReferences.vi"/>
 		<Item Name="Sequence.AddVariables.vi" Type="VI" URL="../SubVIs/Sequence.AddVariables.vi"/>
 		<Item Name="Sequence.Build.vi" Type="VI" URL="../SubVIs/Sequence.Build.vi"/>
