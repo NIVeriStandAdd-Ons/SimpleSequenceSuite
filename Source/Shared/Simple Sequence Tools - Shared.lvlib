@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="App.OpenDatalogFlie.vi" Type="VI" URL="../SubVIs/App.OpenDatalogFlie.vi"/>
+		<Item Name="App.OpenSequenceSettingsFile.vi" Type="VI" URL="../SubVIs/App.OpenSequenceSettingsFile.vi"/>
 		<Item Name="Channel.BuildDisplayedName.vi" Type="VI" URL="../SubVIs/Channel.BuildDisplayedName.vi"/>
 		<Item Name="Channel.BuildMenuName.vi" Type="VI" URL="../SubVIs/Channel.BuildMenuName.vi"/>
 		<Item Name="FileName.StripName.vi" Type="VI" URL="../SubVIs/FileName.StripName.vi"/>
