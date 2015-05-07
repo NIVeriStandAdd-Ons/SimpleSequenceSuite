@@ -21,6 +21,7 @@ IP has been tested by developer. It is currently being tested with customers.
 ### Dependencies ###
 
 NI VeriStand 2013 (or later) APIs
+
 NI Sound and Vibration Toolkit 2013 (or later)
 
 ### License ###
