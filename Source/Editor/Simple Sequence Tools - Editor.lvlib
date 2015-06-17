@@ -76,6 +76,7 @@
 		<Item Name="Sequence.MainSeqRefs.ctl" Type="VI" URL="../Types/Sequence.MainSeqRefs.ctl"/>
 		<Item Name="UI.PropertiesTypes.ctl" Type="VI" URL="../Types/UI.PropertiesTypes.ctl"/>
 	</Item>
+	<Item Name="Find Channel from List.vi" Type="VI" URL="../SubVIs/Find Channel from List.vi"/>
 	<Item Name="Sequence Editor.vi" Type="VI" URL="../Sequence Editor.vi"/>
 	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
 </Library>

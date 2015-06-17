@@ -7,7 +7,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="App.OpenSequenceSettingsFile.vi" Type="VI" URL="../SubVIs/App.OpenSequenceSettingsFile.vi"/>
 		<Item Name="Channel.BuildDisplayedName.vi" Type="VI" URL="../SubVIs/Channel.BuildDisplayedName.vi"/>
-		<Item Name="Channel.BuildMenuName.vi" Type="VI" URL="../SubVIs/Channel.BuildMenuName.vi"/>
+		<Item Name="Channel.BuildMenuNames.vi" Type="VI" URL="../SubVIs/Channel.BuildMenuNames.vi"/>
 		<Item Name="FileName.StripName.vi" Type="VI" URL="../SubVIs/FileName.StripName.vi"/>
 		<Item Name="INI.GetSettings.vi" Type="VI" URL="../SubVIs/INI.GetSettings.vi"/>
 		<Item Name="iStep.CreateSetpoints.vi" Type="VI" URL="../SubVIs/iStep.CreateSetpoints.vi"/>
@@ -33,4 +33,5 @@
 		<Item Name="Sequence.Reference.ctl" Type="VI" URL="../Types/Sequence.Reference.ctl"/>
 		<Item Name="Step.Types.ctl" Type="VI" URL="../Types/Step.Types.ctl"/>
 	</Item>
+	<Item Name="Channel.BuildMenuName.vi" Type="VI" URL="../SubVIs/Channel.BuildMenuName.vi"/>
 </Library>
