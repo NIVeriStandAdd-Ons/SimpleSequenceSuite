@@ -17,6 +17,7 @@
 		<Item Name="Channel.SearchForExisting.vi" Type="VI" URL="../SubVIs/Channel.SearchForExisting.vi"/>
 		<Item Name="Cursor.Manage.vi" Type="VI" URL="../SubVIs/Cursor.Manage.vi"/>
 		<Item Name="Dialog.MassStepGeneration.vi" Type="VI" URL="../SubVIs/Dialog.MassStepGeneration.vi"/>
+		<Item Name="Find Channel from List.vi" Type="VI" URL="../SubVIs/Find Channel from List.vi"/>
 		<Item Name="LoadSystemDefinition.vi" Type="VI" URL="../SubVIs/LoadSystemDefinition.vi"/>
 		<Item Name="Menu.BuildSubMenuTag.vi" Type="VI" URL="../SubVIs/Menu.BuildSubMenuTag.vi"/>
 		<Item Name="Menu.Sequence.Load.vi" Type="VI" URL="../SubVIs/Menu.Sequence.Load.vi"/>
@@ -76,7 +77,6 @@
 		<Item Name="Sequence.MainSeqRefs.ctl" Type="VI" URL="../Types/Sequence.MainSeqRefs.ctl"/>
 		<Item Name="UI.PropertiesTypes.ctl" Type="VI" URL="../Types/UI.PropertiesTypes.ctl"/>
 	</Item>
-	<Item Name="Find Channel from List.vi" Type="VI" URL="../SubVIs/Find Channel from List.vi"/>
 	<Item Name="Sequence Editor.vi" Type="VI" URL="../Sequence Editor.vi"/>
 	<Item Name="Simple Sequence Editor.rtm" Type="Document" URL="../Simple Sequence Editor.rtm"/>
 </Library>
