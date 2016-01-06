@@ -118,13 +118,13 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApiUtilities.dll" Type="Document" URL="../../../../Program Files/National Instruments/VeriStand 2013/Data/NationalInstruments.VeriStand.RealTimeSequenceDefinitionApiUtilities.dll"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.ATMLTestResults" Type="Document" URL="NationalInstruments.VeriStand.ATMLTestResults">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NationalInstruments.VeriStand.RealTimeSequenceDefinitionApiUtilities.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/VeriStand 2013/Data/NationalInstruments.VeriStand.RealTimeSequenceDefinitionApiUtilities.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Execution Tool LLB" Type="Source Distribution">
