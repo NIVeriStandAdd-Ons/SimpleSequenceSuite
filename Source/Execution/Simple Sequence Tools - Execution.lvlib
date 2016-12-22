@@ -37,7 +37,7 @@
 		<Item Name="Execution.SequenceState.ctl" Type="VI" URL="../Types/Execution.SequenceState.ctl"/>
 		<Item Name="Main.StateVariables.ctl" Type="VI" URL="../Types/Main.StateVariables.ctl"/>
 		<Item Name="Results.Value.ctl" Type="VI" URL="../Types/Results.Value.ctl"/>
-		<Item Name="Restart.Settings" Type="VI" URL="../Types/Restart.Settings"/>
+		<Item Name="Restart.Settings.ctl" Type="VI" URL="../Types/Restart.Settings.ctl"/>
 	</Item>
 	<Item Name="Sequence Execution.rtm" Type="Document" URL="../Sequence Execution.rtm"/>
 	<Item Name="Sequence Execution.vi" Type="VI" URL="../Sequence Execution.vi"/>

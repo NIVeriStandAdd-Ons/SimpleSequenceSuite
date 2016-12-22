@@ -29,7 +29,7 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Channel.Properties.ctl" Type="VI" URL="../Types/Channel.Properties.ctl"/>
-		<Item Name="INI.Settings" Type="VI" URL="../Types/INI.Settings"/>
+		<Item Name="INI.Settings.ctl" Type="VI" URL="../Types/INI.Settings.ctl"/>
 		<Item Name="Saved.Sequence.ctl" Type="VI" URL="../Types/Saved.Sequence.ctl"/>
 		<Item Name="Sequence.Reference.ctl" Type="VI" URL="../Types/Sequence.Reference.ctl"/>
 		<Item Name="Step.Types.ctl" Type="VI" URL="../Types/Step.Types.ctl"/>
